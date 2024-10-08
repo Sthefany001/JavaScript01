@@ -4,6 +4,8 @@ var nome = 'Elias'; //string
 var sobrenome = 'de Abreu';
 var idade = 41; //variável numérica
 
+//console.log(nome,idade);
+
 const i = 41; //const NÃO pode sofrer alteração
 
 var aprovado = false;
