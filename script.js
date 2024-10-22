@@ -29,7 +29,7 @@ var numero2 = 20;
 var soma = numero1 + numero2;
 var mod = 11 % 2;
 var exp = 3 ** 2;
-//Nan = errou, aparece -> (ex: 3 ** nome) -> não tem como fazer!
+//NaN = errou, aparece -> (ex: 3 ** nome) -> não tem como fazer!
 
 console.log(nomeCompleto);
 //console.log(typeof idade);
@@ -46,17 +46,27 @@ else{
 var a = 10;
 var b = '10';
 
+//Para difererenciar, mais claro.
+if(b.isNaN){
+    console.log('Não é número.')
+}
+else{
+    console.log('É número.')
+}
+
 /*
 VERIFICA
 == : Valor
 === : Valor e tipo de dado
 */
+/*
 if(a === b || a < 10){
     console.log('São iguais');
 }
 else{
     console.log('Não são iguais');
 }
+*/
 
 //Operações
 console.log('OPERAÇÕES');
