@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <title>Velocidade</title>
+</head>
+<body>
+    <label>Qual a velocidade permitida da via?</label>
+    <input type="text" id="velocidadePermitida"/><br><br>
+    <label>Qual a distância de frenagem?</label>
+    <input type="text" id="distanciaFrenagem"/><br><br>
+    <label>Qual o coeficiente de atrito?</label>
+    <input type="text" id="coeficienteAtrito"/><br><br>
+    <button onclick="VelocidadeAntesFrenagem()" value="VelocidadeAntesFrenagem" id="velocidadeAntesFrenagem">Calcular</button><br><!--VelocidadePrevistaVeiculoAntesFrenagem-->
+    <label id="resultado"></label><br>
+    <label id="resultado2"></label>
+
+    <script src="exercicio4.js"></script>
+</body>
+</html>

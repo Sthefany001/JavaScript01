@@ -43,3 +43,16 @@ while(n > 10){
     console.log(n);
     n++;
 }
+
+var pesso = {
+    nome: 'Elias',
+    idade: 32,
+    profissao: 'Professor',
+    trauma: 'Ganhar mau!',
+
+    salario: function(){
+        console.log(5000);
+    }
+}
+
+console.log(pesso.salario())
